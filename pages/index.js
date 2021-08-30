@@ -1,22 +1,9 @@
-import Image from 'next/image';
+import Layout from '../components/Layout'
 
 export default function index() {
   return (
-    <div className="grid md:grid-cols-4 font-body">
-      <div className="md:col-span-1">
-        <nav className="py-4 px-28 h-full bg-gray-800 text-white hidden md:flex flex-col justify-start font-sans">
-          <h1 className="uppercase font-bold text-red-500 text-xl text-center">Food D2Y</h1>
-
-          <ul className="text-center">
-            <li className="my-10 font-semibold"><a href="#">Home</a></li>
-            <li className="my-10 font-semibold"><a href="#">About</a></li>
-            <li className="my-10 font-semibold"><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <main className="md:col-span-3 w-10/12 mx-auto text-gray-600 mb-20">
-
+    <Layout>
+      <div className="mx-10">
         <header className="mt-10">
           <h2 className="text-5xl font-semibold">Recipes</h2>
           <h3 className="text-lg mt-3 text-red-500">d2yfood</h3>
@@ -70,7 +57,7 @@ export default function index() {
 
 
         </div>
-      </main>
-    </div>
+      </div>
+    </Layout>
   )
 }
