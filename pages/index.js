@@ -15,7 +15,21 @@ export default function index() {
           {/* Card go here */}
           <div className="grid md:grid-cols-3 gap-4">
             <div className="shadow-lg hover:shadow-2xl rounded-lg my-10">
-              <img src="/sup.jpg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
+              <img src="/a.jpeg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
+              <div className="p-5">
+                <span>5 Been Chilli Stew</span>
+                <span>Recipe By Mhunawar</span>
+              </div>
+            </div>
+            <div className="shadow-lg hover:shadow-2xl rounded-lg my-10">
+              <img src="/b.jpg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
+              <div className="p-5">
+                <span>5 Been Chilli Stew</span>
+                <span>Recipe By Mhunawar</span>
+              </div>
+            </div>
+            <div className="shadow-lg hover:shadow-2xl rounded-lg my-10">
+              <img src="/c.jpg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
               <div className="p-5">
                 <span>5 Been Chilli Stew</span>
                 <span>Recipe By Mhunawar</span>
@@ -30,6 +44,13 @@ export default function index() {
             </div>
             <div className="shadow-lg hover:shadow-2xl rounded-lg my-10">
               <img src="/burg.jpg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
+              <div className="p-5">
+                <span>5 Been Chilli Stew</span>
+                <span>Recipe By Mhunawar</span>
+              </div>
+            </div>
+            <div className="shadow-lg hover:shadow-2xl rounded-lg my-10">
+              <img src="/d.jpg" alt="Food" className="object-cover h-48 md:h-60 w-full rounded-t-lg" />
               <div className="p-5">
                 <span>5 Been Chilli Stew</span>
                 <span>Recipe By Mhunawar</span>
