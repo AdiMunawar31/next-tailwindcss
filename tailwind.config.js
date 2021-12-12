@@ -3,8 +3,13 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        'urbanist': ['Urbanist'],
+      },
       colors: {
-        primary: '#FF4848',
+        primary: {
+          DEFAULT: '#ced3df'
+        },
       }
     },
   },
