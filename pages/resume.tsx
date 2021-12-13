@@ -7,7 +7,7 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h5 className="px-2 my-3 text-2xl font-bold border-l-4 border-blue-600">Education</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Computer Science Engineering</h5>
             <p className="font-semibold">Academy of Technology (2017-2021)</p>
@@ -15,7 +15,7 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h5 className="px-2 my-3 text-2xl font-bold border-l-4 border-blue-600">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
             <p className="font-semibold">Tata Consultancy Services</p>

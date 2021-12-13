@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700&display=swap" rel="stylesheet" />
         </Head>
-        <body className="font-urbanist bg-gradient-to-br from-primary to-gray-300">
+        <body className="bg-fixed font-urbanist bg-gradient-to-br from-primary to-gray-300 dark:from-dark dark:to-dark-50 dark:text-gray-100">
           <Main />
           <NextScript />
         </body>
