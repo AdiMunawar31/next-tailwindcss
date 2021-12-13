@@ -46,7 +46,7 @@ export const services: Service[] = [
 
 export const languages: Skill[] = [
   {
-    Icon: "https://adi-munawar.netlify.app/static/media/php.b47d1126.svg",
+    Icon: "https://www.php.net/images/logos/new-php-logo.svg",
     name: "PHP",
   },
   {
@@ -58,12 +58,12 @@ export const languages: Skill[] = [
     name: "JavaScript",
   },
   {
-    Icon: "https://adi-munawar.netlify.app/static/media/java.e09b59c6.svg",
-    name: "Java",
+    Icon: "https://iconape.com/wp-content/png_logo_vector/typescript.png",
+    name: "TypeScript",
   },
   {
-    Icon: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-    name: "TypeScript",
+    Icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+    name: "Vue",
   },
   {
     Icon: "https://adi-munawar.netlify.app/static/media/react.e68b35f4.svg",
@@ -75,7 +75,11 @@ export const languages: Skill[] = [
   },
   {
     Icon: "https://adi-munawar.netlify.app/static/media/tail.50fbcf51.svg",
-    name: "Tailwind CSS",
+    name: "Tailwind",
+  },
+  {
+    Icon: "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
+    name: "Bootstrap",
   },
 ];
 
@@ -91,6 +95,10 @@ export const tools: Skill[] = [
   {
     Icon: "https://adi-munawar.netlify.app/static/media/xd.fc74e80f.svg",
     name: "Adobe XD",
+  },
+  {
+    Icon: "https://octocourses.com/static/7bcadc9ec2ba0513c32383ea8ff863c7/630fb/framer-motion.png",
+    name: "Framer",
   },
   {
     Icon: "https://adi-munawar.netlify.app/static/media/dock.f13de5f9.svg",

@@ -4,9 +4,9 @@ import { Skill } from '../types';
 
 const Skills: FunctionComponent<{ value: Skill }> = ({ value: { Icon, name } }) => {
   return (
-    <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-black-500">
-      <div className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-green to-blue-500">
-        <img src={Icon} className="mr-3" /> {name}
+    <div className="grid-cols-1 my-2">
+      <div className="flex items-center justify-center w-20 h-20 bg-gray-200">
+        <img src={Icon} className="w-14 h-14" alt={name} title={name} />
       </div>
     </div>
   );

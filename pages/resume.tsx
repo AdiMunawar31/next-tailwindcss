@@ -25,10 +25,10 @@ const Resume = () => {
       </div>
 
       {/*Languages & Tools */}
-      <div className="grid gap-9 md:grid-cols-2">
+      <div className="grid gap-10 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
-          <div className="my-2">
+          <div className="grid grid-cols-2 my-2 md:grid-cols-4">
             {languages.map((language, i) => (
               <Skills value={language} key={i} />
             ))}
@@ -37,7 +37,7 @@ const Resume = () => {
 
         <div>
           <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
-          <div className="my-2">
+          <div className="grid grid-cols-2 my-2 md:grid-cols-4">
             {tools.map((tool, i) => (
               <Skills value={tool} key={i} />
             ))}
