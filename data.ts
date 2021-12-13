@@ -111,99 +111,195 @@ export const projects: IProject[] = [
     name: "COVID Tracker",
     description:
       "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    image_path: "/images/vuecvd.jpg",
+    deployed_url: "https://vue-cvd19.vercel.app/ ",
+    github_url: "https://github.com/AdiMunawar31/cvd19",
+    category: ["vue"],
+    key_techs: ["Vue", "Chart.js", "Tailwind CSS"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    name: "Company Profile",
+    image_path: "/images/company.jpg",
+    deployed_url: "https://adimunawar31.github.io/",
+    github_url: "https://github.com/AdiMunawar31/adimunawar31.github.io",
+    category: ["css"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+    key_techs: ["JQuery", "Materialize CSS"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    name: "D2YTODO",
+    image_path: "/images/todo.jpg",
+    deployed_url: "https://adimunawar31.github.io/",
+    github_url: "https://github.com/AdiMunawar31/vue-composition-api",
+    category: ["vue"],
     description:
       "Social Media app for developers who can share project,create posts,etc...",
-    key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
-    ],
+    key_techs: ["Vue", "Bootstrap 5"],
   },
 
   {
     name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  },
-
-  {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  },
-  {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    image_path: "/images/dichat.jpg",
+    deployed_url: "https://dichat.netlify.app/",
+    github_url: "#",
     category: ["react"],
     description:
+      "Basic Realtime Chat App where one can create a room can talk to each other",
+    key_techs: ["React","Socket"],
+  },
+
+  {
+    name: "Grid Profile",
+    image_path: "/images/d2y-ch.jpg",
+    deployed_url: "https://adimunawar31.github.io/d2y_channel",
+    github_url: "https://github.com/AdiMunawar31/d2y_channel",
+    category: ["css"],
+    description:
+      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+    key_techs: ["CSS GRID"],
+  },
+  {
+    name: "D2YNEWS",
+    image_path: "/images/d2ynews.jpg",
+    deployed_url: "https://d2ynews.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/d2ynews",
+    category: ["react"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React"],
+  },
+  {
+    name: "React Portfolio",
+    image_path: "/images/re.jpg",
+    deployed_url: "https://adi-munawar.netlify.app/",
+    github_url: "#",
+    category: ["react"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React"],
+  },
+  {
+    name: "Ulin Admin",
+    image_path: "/images/ulin-admin.jpg",
+    deployed_url: "https://ulin-admin.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/ulin-admin",
+    category: ["vue"],
+    description:
+      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+    key_techs: [ "Vue", "Tailwind CSS"],
+  },
+  {
+    name: "D2YPOST",
+    image_path: "/images/d2ypost.jpg",
+    deployed_url: "https://d2ypost.netlify.app/",
+    github_url: "https://github.com/AdiMunawar31/vue-advance",
+    category: ["vue"],
+    description:
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    key_techs: [ "Vue", "Tailwind CSS"],
   },
 ];
+
+// export const projects: IProject[] = [
+//   { 
+//     name: "COVID Tracker",
+//     description:
+//       "This app shows a statistical view about corona virus over the world",
+//     image_path: "/images/covid.jpg",
+//     deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+//     github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+//     category: ["react"],
+//     key_techs: ["React", "Chart.js", "Material UI"],
+//   },
+//   {
+//     name: "Algorithm Visualizer",
+//     image_path: "/images/algoVisual.png",
+//     deployed_url: "https://visual-algorithm.web.app/",
+//     github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+//     category: ["react"],
+//     description:
+//       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
+//     key_techs: ["React", "firebase", "Framer Motion"],
+//   },
+
+//   {
+//     name: "Dev Talks",
+//     image_path: "/images/dev.jpg",
+//     deployed_url: "https://dev-talks.herokuapp.com/",
+//     github_url: "https://github.com/Dey-Sumit/Dev-talks",
+//     category: ["node", "mongo", "react"],
+//     description:
+//       "Social Media app for developers who can share project,create posts,etc...",
+//     key_techs: [
+//       "React",
+//       "Redux",
+//       "Node",
+//       "Express",
+//       "Mongo",
+//       "REST API",
+//       "Bootstrap",
+//     ],
+//   },
+
+//   {
+//     name: "Realtime Chat App",
+//     image_path: "/images/chatapp.jpg",
+//     deployed_url: "https://sumit-chat.netlify.app/",
+//     github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+//     category: ["node", "react"],
+//     description:
+//       "Basic Realtime Chat App where one can create a room can talk to each other",
+//     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+//   },
+
+//   {
+//     name: "Tweeter Clone",
+//     image_path: "/images/tweetme.jpg",
+//     deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
+//     github_url: "https://github.com/Dey-Sumit/tweetme",
+//     category: ["django", "react"],
+//     description:
+//       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+//     key_techs: ["React", "Django", "Django REST API"],
+//   },
+
+//   {
+//     name: "Color Classification using tf.js",
+//     image_path: "/images/color.jpg",
+//     deployed_url: "!#",
+//     github_url: "https://github.com/Dey-Sumit/color-classification",
+//     category: ["express"],
+//     description:
+//       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+//     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+//   },
+//   {
+//     name: "YouTube using YouTube ",
+//     image_path: "/images/youtubeClone.png",
+//     deployed_url: "https://not-utube.web.app/",
+//     github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
+//     category: ["express"],
+//     description:
+//       'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+//     key_techs: [
+//       "React",
+//       "Redux",
+//       "Firebase Auth",
+//       "YouTube API",
+//       "Sass",
+//       "Bootstrap",
+//     ],
+//   },
+//   {
+//     name: "Football App",
+//     image_path: "/images/football.png",
+//     deployed_url: "https://o-my-goal.web.app/",
+//     github_url: "https://github.com/Dey-Sumit/football-app",
+//     category: ["react"],
+//     description:
+//       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+//     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+//   },
+// ];

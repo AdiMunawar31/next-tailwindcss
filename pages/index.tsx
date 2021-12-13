@@ -1,7 +1,6 @@
-import { GetServerSideProps, GetServerSidePropsContext, GetStaticProps, GetStaticPropsContext, NextPage } from 'next';
+import { NextPage } from 'next';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
-import { Service } from '../types';
 
 const About: NextPage = () => {
   // console.log(services);
