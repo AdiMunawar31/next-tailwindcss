@@ -5,11 +5,11 @@ import { useRouter } from 'next/dist/client/router';
 const NavItem: FunctionComponent<{
   activeItem: string;
   setActiveItem: Function;
-  name: String;
-  route: String;
+  name: string;
+  route: string;
 }> = ({ activeItem, setActiveItem, name, route }) => {
   return activeItem !== name ? (
-    <Link href="/">
+    <Link href={route}>
       <a>
         <span onClick={() => setActiveItem(name)} className="hover:text-blue-600">
           {name}

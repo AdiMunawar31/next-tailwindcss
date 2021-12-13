@@ -7,17 +7,17 @@ const Sidebar = () => {
     <div>
       {/* My Information */}
       <img src="https://avatars.githubusercontent.com/u/57015700?v=4" alt="avatar" className="w-32 mx-auto rounded-full" />
-      <h3 className="my-2 text-2xl font-medium tracking-wider font-">
+      <h3 className="my-4 text-2xl font-medium tracking-wider">
         <span className="text-blue-600">Adi</span> Munawar
       </h3>
       <p className="px-2 py-1 my-2 bg-gray-200 rounded-full">Web Developer</p>
-      <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full ">
+      <a className="flex items-center justify-center px-2 py-1 my-4 bg-gray-200 rounded-full ">
         <BsFillFileEarmarkArrowDownFill className="w-4 h-4 mr-1 -mt-1" />
         Download Resume
       </a>
 
       {/* Social Icon */}
-      <div className="flex justify-around mx-auto my-3 text-blue-500">
+      <div className="flex justify-around mx-auto my-6 text-blue-500">
         <a href="https://www.youtube.com/channel/UCx7GJoa9DAyngsmAQJ_uGLA" target="_blank">
           <AiFillYoutube className="cursor-pointer w-7 h-7" />
         </a>
@@ -30,7 +30,7 @@ const Sidebar = () => {
       </div>
 
       {/* Address */}
-      <div className="py-4 my-3 bg-gray-200" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
+      <div className="py-4 my-4 bg-gray-200" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
         <div className="flex justify-center mt-2 space-x-1 align-center">
           <GoLocation />
           <span>Kuningan - Indonesia</span>

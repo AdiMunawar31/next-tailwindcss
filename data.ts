@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>React.js</b>  and <b>Vue.js</b> ",
   },
   {
     Icon: FaServer,
@@ -23,12 +23,12 @@ export const services: Service[] = [
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using <b>laravel-rest-api</b>  & <b>Node API</b> ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "a daily problem solver in <b>HackerRank</b>, <b>Leet Code</b>  and <b>CodeWars</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -46,57 +46,55 @@ export const services: Service[] = [
 
 export const languages: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: "https://adi-munawar.netlify.app/static/media/php.b47d1126.svg",
+    name: "PHP",
+  },
+  {
+    Icon: "https://adi-munawar.netlify.app/static/media/py.cb17f7a4.svg",
     name: "Python",
-    level: "45",
   },
   {
-    Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
+    Icon: "https://adi-munawar.netlify.app/static/media/js.fabe1e9b.svg",
+    name: "JavaScript",
   },
   {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
+    Icon: "https://adi-munawar.netlify.app/static/media/java.e09b59c6.svg",
+    name: "Java",
   },
   {
-    Icon: BsCircleFill,
+    Icon: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    name: "TypeScript",
+  },
+  {
+    Icon: "https://adi-munawar.netlify.app/static/media/react.e68b35f4.svg",
     name: "React",
-    level: "70",
   },
   {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    Icon: "https://adi-munawar.netlify.app/static/media/lara.50c10050.svg",
+    name: "Laravel",
   },
   {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    Icon: "https://adi-munawar.netlify.app/static/media/tail.50fbcf51.svg",
+    name: "Tailwind CSS",
   },
 ];
 
 export const tools: Skill[] = [
   {
-    Icon: BsCircleFill,
+    Icon: "https://adi-munawar.netlify.app/static/media/figma.753c0742.svg",
     name: "Figma",
-    level: "85",
   },
   {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    Icon: "https://adi-munawar.netlify.app/static/media/git.9e5efe4a.svg",
+    name: "GIT",
   },
   {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    Icon: "https://adi-munawar.netlify.app/static/media/xd.fc74e80f.svg",
+    name: "Adobe XD",
   },
   {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    Icon: "https://adi-munawar.netlify.app/static/media/dock.f13de5f9.svg",
+    name: "Docker",
   },
 ];
 
