@@ -2,6 +2,7 @@ import { useTheme } from 'next-themes';
 import { AiFillGithub, AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
 import { BsFillFileEarmarkArrowDownFill } from 'react-icons/bs';
 import { GoLocation } from 'react-icons/go';
+import Image from 'next/image';
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,7 +14,7 @@ const Sidebar = () => {
   return (
     <div>
       {/* My Information */}
-      <img src="/images/adi.jpg" alt="avatar" className="w-40 h-40 mx-auto border-4 border-gray-400 rounded-full" />
+      <Image src="/images/adi.jpg" alt="avatar" className="mx-auto rounded-full" width="126" height="126" layout="intrinsic" />
       <h3 className="my-4 text-2xl font-bold tracking-wider">
         <span className="text-blue-600">Adi</span> Munawar
       </h3>
