@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <div>
       {/* My Information */}
-      <Image src="https://avatars.githubusercontent.com/u/57015700?v=4" alt="avatar" className="mx-auto border rounded-full " height="128px" width="128px" layout="intrinsic" quality="100" />
+      <Image src="/../public/images/adi.jpg" alt="avatar" className="mx-auto border rounded-full " height="128px" width="128px" layout="intrinsic" quality="100" />
       <h3 className="my-4 text-2xl font-bold tracking-wider">
         <span className="text-blue-600">Adi</span> Munawar
       </h3>

@@ -3,9 +3,6 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
-      fontFamily: {
-        'urbanist': ['Urbanist'],
-      },
       boxShadow: {
         "custom-light": " 3px 3px 12px #808080",
         "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
