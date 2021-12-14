@@ -13,12 +13,6 @@ const ProjectCard: FunctionComponent<{
   return (
     <div>
       <Image src={image_path} alt={name} className="cursor-pointer" onClick={() => setShowDetail(true)} layout="responsive" height="150" width="300" />
-      {/* <img
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
-      /> */}
       <p className="my-2 text-center">{name}</p>
 
       {showDetail && (

@@ -26,13 +26,13 @@ const Sidebar = () => {
 
       {/* Social Icon */}
       <div className="flex justify-around mx-auto my-6 text-blue-500">
-        <a href="https://www.youtube.com/channel/UCx7GJoa9DAyngsmAQJ_uGLA" target="_blank">
+        <a href="https://www.youtube.com/channel/UCx7GJoa9DAyngsmAQJ_uGLA">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/AdiMunawar31" target="_blank">
+        <a href="https://github.com/AdiMunawar31">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/mhunawar31/" target="_blank">
+        <a href="https://www.instagram.com/mhunawar31/">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
