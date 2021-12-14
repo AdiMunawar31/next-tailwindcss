@@ -2,7 +2,6 @@ import { useTheme } from 'next-themes';
 import { AiFillGithub, AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
 import { BsFillFileEarmarkArrowDownFill } from 'react-icons/bs';
 import { GoLocation } from 'react-icons/go';
-import Image from 'next/image';
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -14,7 +13,7 @@ const Sidebar = () => {
   return (
     <div>
       {/* My Information */}
-      <Image src="/../public/images/adi.jpg" alt="avatar" className="mx-auto border rounded-full " height="128px" width="128px" />
+      <img src="https://adi-munawar.netlify.app/static/media/p.d0a4e270.jpg" alt="avatar" className="w-40 h-40 mx-auto border-4 border-gray-400 rounded-full" />
       <h3 className="my-4 text-2xl font-bold tracking-wider">
         <span className="text-blue-600">Adi</span> Munawar
       </h3>
