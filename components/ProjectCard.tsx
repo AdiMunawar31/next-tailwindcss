@@ -16,11 +16,12 @@ const ProjectCard: FunctionComponent<{
       <p className="my-2 text-center">{name}</p>
 
       {showDetail && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:p-10 shadow-custom-light dark:shadow-custom-dark md:grid-cols-2 gap-x-12 dark:text-gray-300 dark:bg-dark-50">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black border-gray-300 md:p-10 shadow-custom-light dark:shadow-custom-dark md:grid-cols-2 gap-x-12 dark:text-gray-300 dark:bg-dark-50">
           <div>
             {/* <img src={image_path} alt={name} /> */}
-
-            <Image src={image_path} alt={name} layout="responsive" height="150" width="300" />
+            <div className="bg-gray-400 border-4">
+              <Image src={image_path} alt={name} layout="responsive" height="150" width="300" />
+            </div>
             <div className="flex justify-center my-4 space-x-3">
               <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200">
                 <AiFillGithub /> <span>Github</span>

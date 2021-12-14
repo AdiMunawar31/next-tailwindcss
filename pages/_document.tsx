@@ -5,6 +5,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,700;1,500&display=swap" rel="stylesheet"></link>
+
           <meta name="description" content="MERN STACK Developer looking for a job" />
           <meta name="keywords" content="FullStack Web Developer, Freelancer, MERN Develover" />
         </Head>
