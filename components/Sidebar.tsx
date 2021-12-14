@@ -13,12 +13,12 @@ const Sidebar = () => {
   return (
     <div>
       {/* My Information */}
-      <img src="https://adi-munawar.netlify.app/static/media/p.d0a4e270.jpg" alt="avatar" className="w-40 h-40 mx-auto border-4 border-gray-400 rounded-full" />
+      <img src="/images/adi.jpg" alt="avatar" className="w-40 h-40 mx-auto border-4 border-gray-400 rounded-full" />
       <h3 className="my-4 text-2xl font-bold tracking-wider">
         <span className="text-blue-600">Adi</span> Munawar
       </h3>
       <p className="px-2 py-1 my-2 bg-gray-200 rounded-full dark:bg-dark-100">Web Developer</p>
-      <a className="flex items-center justify-center px-2 py-1 my-4 bg-gray-200 rounded-full dark:bg-dark-100 ">
+      <a className="flex items-center justify-center px-2 py-1 my-4 bg-gray-200 rounded-full dark:bg-dark-100" href="/images/adi.jpg" download="adi.jpg" rel="canonical">
         <BsFillFileEarmarkArrowDownFill className="w-4 h-4 mr-1 -mt-1" />
         Download Resume
       </a>
