@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const ProjectCard: FunctionComponent<{
   project: IProject;
-}> = ({ project: { name, image_path, category, deployed_url, description, github_url, key_techs } }) => {
+}> = ({ project: { name, image_path, deployed_url, description, github_url, key_techs } }) => {
   const [showDetail, setShowDetail] = useState(false);
 
   return (
