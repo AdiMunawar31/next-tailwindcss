@@ -13,13 +13,13 @@ const Resume = () => {
         <div>
           <h1 className="px-2 my-3 text-2xl font-bold border-l-4 border-blue-600 dark:text-gray-200">Education</h1>
           <p className="my-2 text-xl font-bold">Computer Science Engineering</p>
-          <p className="font-semibold">Academy of Technology (2017-2021)</p>
-          <p className="my-3">I am currently pursuing B.tech in Computer Science Engineering from Academy of Technology</p>
+          <p className="font-semibold">STMIK IKMI Cirebon(2019)</p>
+          <p className="my-3">I'm currently studying at the S1 level at STMIK IKMI Cirebon</p>
         </div>
         <div>
           <h1 className="px-2 my-3 text-2xl font-bold border-l-4 border-blue-600 dark:text-gray-200">Experience</h1>
           <p className="my-2 text-xl font-bold">Software Developer Jr.</p>
-          <p className="font-semibold">Tata Consultancy Services</p>
+          <p className="font-semibold">Web and Mobile Developer</p>
           <p className="my-3">I dont know why I am doing this job</p>
         </div>
       </div>
