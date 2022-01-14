@@ -40,7 +40,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Whatever",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "I am very happy to learn new things every day",
   },
 ];
 
