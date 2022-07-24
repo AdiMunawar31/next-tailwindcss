@@ -2,9 +2,7 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
-
-import { BsCircleFill } from "react-icons/bs";
+import { ICertificate, IProject, Service, Skill } from "./types";
 
 export const services: Service[] = [
   {
@@ -232,3 +230,61 @@ export const projects: IProject[] = [
     key_techs: [ "Flutter","Firebase", "Provider"],
   },
 ];
+
+export const certificates: ICertificate[] = [
+  {
+    name: "SIB Kampus Merdeka",
+    image_path: "/certificates/sib.png",
+    category: ["random"]
+  },
+  {
+    name: "Memulai Pemrograman Dengan Kotlin",
+    image_path: "/certificates/kotlin.png",
+    category: ["lang", "android"]
+  },
+  {
+    name: "Memulai Pemrograman Dengan Dart",
+    image_path: "/certificates/dart.png",
+    category: ["lang", "flutter"]
+  },
+  {
+    name: "Memulai Pemrograman Dengan Java",
+    image_path: "/certificates/java.png",
+    category: ["lang", "android"]
+  },
+  {
+    name: "Memulai Pemrograman Dengan Python",
+    image_path: "/certificates/python.png",
+    category: ["lang"]
+  },
+  {
+    name: "Belajar Dasar Pemrograman Javascript",
+    image_path: "/certificates/js.png",
+    category: ["lang"]
+  },
+  {
+    name: "Belajar Membuat Aplikasi Android untuk Pemula",
+    image_path: "/certificates/android-basic.png",
+    category: ["android"]
+  },
+  {
+    name: "Belajar Fundamental Aplikasi Android",
+    image_path: "/certificates/android-fundamental.png",
+    category: ["android"]
+  },
+  {
+    name: "Belajar Membuat Aplikasi Flutter untuk Pemula",
+    image_path: "/certificates/flutter-basic.png",
+    category: ["flutter"]
+  },
+  {
+    name: "Belajar Fundamental Aplikasi Flutter",
+    image_path: "/certificates/flutter-fundamental.png",
+    category: ["flutter"]
+  },
+  {
+    name: "Menjadi Flutter Developer Expert",
+    image_path: "/certificates/flutter-expert.png",
+    category: ["flutter"]
+  },
+]

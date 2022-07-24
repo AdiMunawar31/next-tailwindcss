@@ -21,4 +21,12 @@ export interface IProject {
   key_techs: string[];
 }
 
+export interface ICertificate {
+  name: string;
+  image_path: string;
+  category: CategoryCertificate[];
+}
+
 export type Category = "javascript" | "react" | "vue" | "flutter";
+
+export type CategoryCertificate = "random" | "lang" | "flutter" | "android";
