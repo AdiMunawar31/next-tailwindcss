@@ -21,4 +21,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "express" | "mongo" | "vue" | "css";
+export type Category = "javascript" | "react" | "vue" | "flutter";

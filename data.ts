@@ -142,28 +142,6 @@ export const projects: IProject[] = [
     key_techs: ["Vue", "Chart.js", "Tailwind CSS"],
   },
   {
-    name: "Company Profile",
-    image_path: "/images/company.jpg",
-    deployed_url: "https://adimunawar31.github.io/",
-    github_url: "https://github.com/AdiMunawar31/adimunawar31.github.io",
-    category: ["css"],
-    description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["JQuery", "Materialize CSS"],
-  },
-
-  {
-    name: "D2YTODO",
-    image_path: "/images/todo.jpg",
-    deployed_url: "https://adimunawar31.github.io/",
-    github_url: "https://github.com/AdiMunawar31/vue-composition-api",
-    category: ["vue"],
-    description:
-      "Social Media app for developers who can share project,create posts,etc...",
-    key_techs: ["Vue", "Bootstrap 5"],
-  },
-
-  {
     name: "Realtime Chat App",
     image_path: "/images/dichat.jpg",
     deployed_url: "https://dichat.netlify.app/",
@@ -172,17 +150,6 @@ export const projects: IProject[] = [
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
     key_techs: ["React","Socket"],
-  },
-
-  {
-    name: "Grid Profile",
-    image_path: "/images/d2y-ch.jpg",
-    deployed_url: "https://adimunawar31.github.io/d2y_channel",
-    github_url: "https://github.com/AdiMunawar31/d2y_channel",
-    category: ["css"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["CSS GRID"],
   },
   {
     name: "D2YNEWS",
@@ -215,6 +182,16 @@ export const projects: IProject[] = [
     key_techs: [ "Vue", "Tailwind CSS"],
   },
   {
+    name: "D2YRESTO",
+    image_path: "/images/d2yresto.png",
+    deployed_url: "https://d2yresto.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/d2yresto",
+    category: ["javascript"],
+    description:
+      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+    key_techs: [ "HTML", "CSS", "Javascript"],
+  },
+  {
     name: "D2YPOST",
     image_path: "/images/d2ypost.jpg",
     deployed_url: "https://d2ypost.netlify.app/",
@@ -223,5 +200,35 @@ export const projects: IProject[] = [
     description:
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
     key_techs: [ "Vue", "Tailwind CSS"],
+  },
+  {
+    name: "D2YPRESENCE",
+    image_path: "/images/d2ypresence.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/AdiMunawar31/presense-app",
+    category: ["flutter"],
+    description:
+      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    key_techs: [ "Flutter", "Firebase", 'GetX'],
+  },
+  {
+    name: "Ditonton",
+    image_path: "/images/ditonton.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/AdiMunawar31/ditonton",
+    category: ["flutter"],
+    description:
+      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    key_techs: [ "Flutter", "Bloc"],
+  },
+  {
+    name: "JTI APP",
+    image_path: "/images/jti.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/proyekcapstone/FRONT-END",
+    category: ["flutter"],
+    description:
+      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    key_techs: [ "Flutter","Firebase", "Provider"],
   },
 ];
