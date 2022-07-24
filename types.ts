@@ -29,4 +29,4 @@ export interface ICertificate {
 
 export type Category = "javascript" | "react" | "vue" | "flutter";
 
-export type CategoryCertificate = "random" | "lang" | "flutter" | "android";
+export type CategoryCertificate = "random" | "lang" | "frontEnd" | "backEnd" | "devOps" | "flutter" | "android";

@@ -10,9 +10,11 @@ export const NavItem: FunctionComponent<{
 	if (active === value) className += ' text-blue-600';
 
 	return (
-		<li className={className} onClick={() => handlerFilterCategory(value)}>
-			{value}
-		</li>
+		<ul>
+			<li className={className} onClick={() => handlerFilterCategory(value)}>
+				{value}
+			</li>
+		</ul>
 	);
 };
 
@@ -25,8 +27,11 @@ const CertificatesNavbar: FunctionComponent<{
 			<NavItem value='all' {...props} />
 			<NavItem value='random' {...props} />
 			<NavItem value='lang' {...props} />
-			<NavItem value='flutter' {...props} />
 			<NavItem value='android' {...props} />
+			<NavItem value='flutter' {...props} />
+			<NavItem value='frontEnd' {...props} />
+			<NavItem value='backEnd' {...props} />
+			<NavItem value='devOps' {...props} />
 		</div>
 	);
 };

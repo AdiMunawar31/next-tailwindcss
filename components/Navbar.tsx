@@ -32,9 +32,9 @@ const Navbar = () => {
 	}, [pathname]);
 
 	return (
-		<div className='flex justify-between px-5 py-3 my-2'>
+		<div className='block sm:flex justify-between px-5 py-3 my-2'>
 			<span className='text-xl font-bold text-blue-600 border-b-4 border-blue-600 md:text-2xl'>{activeItem}</span>
-			<div className='flex space-x-4 text-lg'>
+			<div className='flex space-x-4 text-lg mt-8 sm:mt-0'>
 				<NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='About' route='/' />
 				<NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='Projects' route='/projects' />
 				<NavItem activeItem={activeItem} setActiveItem={setActiveItem} name='Resume' route='/resume' />

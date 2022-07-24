@@ -20,7 +20,7 @@ const CertificateCard: FunctionComponent<{
 				height='200'
 				width='300'
 			/>
-			<p className='my-2 text-center cursor-pointer hover:text-blue-600' onClick={() => setShowDetail(true)}>
+			<p className='mt-2 text-center cursor-pointer hover:text-blue-600' onClick={() => setShowDetail(true)}>
 				{name}
 			</p>
 

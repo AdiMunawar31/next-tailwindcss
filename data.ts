@@ -7,13 +7,13 @@ import { ICertificate, IProject, Service, Skill } from "./types";
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
-    title: "Frontend Development",
+    title: "frontEnd Development",
     about:
       "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>React.js</b>  and <b>Vue.js</b> ",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "backEnd  Development",
     about:
       "handle database, server, api using <b>Express </b> & other popular frameworks",
   },
@@ -260,7 +260,7 @@ export const certificates: ICertificate[] = [
   {
     name: "Belajar Dasar Pemrograman Javascript",
     image_path: "/certificates/js.png",
-    category: ["lang"]
+    category: ["lang", "frontEnd", "backEnd"]
   },
   {
     name: "Belajar Membuat Aplikasi Android untuk Pemula",
@@ -286,5 +286,45 @@ export const certificates: ICertificate[] = [
     name: "Menjadi Flutter Developer Expert",
     image_path: "/certificates/flutter-expert.png",
     category: ["flutter"]
+  },
+  {
+    name: "Belajar Prinsip Pemrograman SOLID",
+    image_path: "/certificates/solid.png",
+    category: ["flutter", "android"]
+  },
+  {
+    name: "Belajar Dasar Pemrograman Web",
+    image_path: "/certificates/web-basic.png",
+    category: ["frontEnd"]
+  },
+  {
+    name: "Belajar Membuat Front-End Web untuk Pemula",
+    image_path: "/certificates/fe-basic.png",
+    category: ["frontEnd"]
+  },
+  {
+    name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+    image_path: "/certificates/be-basic.png",
+    category: ["backEnd"]
+  },
+  {
+    name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    image_path: "/certificates/aws-basic.png",
+    category: ["backEnd", "devOps"]
+  },
+  {
+    name: "Architecting on AWS (Arsitektur Cloud di AWS)",
+    image_path: "/certificates/aws-arsitektur.png",
+    category: ["backEnd", "devOps"]
+  },
+  {
+    name: "Belajar Dasar-Dasar DevOps",
+    image_path: "/certificates/devops-basic.png",
+    category: ["devOps"]
+  },
+  {
+    name: "Belajar Jaringan Komputer untuk Pemula",
+    image_path: "/certificates/jaringan-basic.png",
+    category: ["devOps"]
   },
 ]
