@@ -238,6 +238,11 @@ export const certificates: ICertificate[] = [
     category: ["random"]
   },
   {
+    name: "Problem Solving (Basic)",
+    image_path: "/certificates/hackerank.png",
+    category: ["random"]
+  },
+  {
     name: "Memulai Pemrograman Dengan Kotlin",
     image_path: "/certificates/kotlin.png",
     category: ["lang", "android"]
@@ -326,5 +331,35 @@ export const certificates: ICertificate[] = [
     name: "Belajar Jaringan Komputer untuk Pemula",
     image_path: "/certificates/jaringan-basic.png",
     category: ["devOps"]
+  },
+  {
+    name: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    image_path: "/certificates/program-basic.png",
+    category: ["random"]
+  },
+  {
+    name: "Belajar Dasar Git dengan GitHub",
+    image_path: "/certificates/git.png",
+    category: ["random"]
+  },
+  {
+    name: "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    image_path: "/certificates/logic.png",
+    category: ["random"]
+  },
+  {
+    name: "Meniti Karier sebagai Software Developer",
+    image_path: "/certificates/software.png",
+    category: ["random"]
+  },
+  {
+    name: "Belajar Dasar UX Design",
+    image_path: "/certificates/ux.png",
+    category: ["random"]
+  },
+  {
+    name: "Belajar Dasar Visualisasi Data",
+    image_path: "/certificates/visualisasi.png",
+    category: ["random"]
   },
 ]
