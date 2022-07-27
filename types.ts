@@ -27,6 +27,6 @@ export interface ICertificate {
   category: CategoryCertificate[];
 }
 
-export type Category = "javascript" | "react" | "vue" | "flutter";
+export type Category = "javascript" | "react" | "vue" | "flutter" | "blockchain";
 
 export type CategoryCertificate = "random" | "lang" | "frontEnd" | "backEnd" | "devOps" | "flutter" | "android";

@@ -27,6 +27,7 @@ const ProjectsNavbar: FunctionComponent<{
 			<NavItem value='react' {...props} />
 			<NavItem value='vue' {...props} />
 			<NavItem value='flutter' {...props} />
+			<NavItem value='blockchain' {...props} />
 		</div>
 	);
 };
