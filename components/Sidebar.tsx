@@ -38,13 +38,18 @@ const Sidebar = () => {
 
 			{/* Social Icon */}
 			<div className='flex justify-around mx-auto my-6 text-blue-500'>
-				<a href='https://www.youtube.com/channel/UCx7GJoa9DAyngsmAQJ_uGLA' aria-label='Youtube'>
+				<a
+					href='https://www.youtube.com/channel/UCx7GJoa9DAyngsmAQJ_uGLA'
+					target='_blank'
+					rel='noreferrer'
+					aria-label='Youtube'
+				>
 					<AiFillYoutube className='w-8 h-8 cursor-pointer' />
 				</a>
-				<a href='https://github.com/AdiMunawar31' aria-label='Github'>
+				<a href='https://github.com/AdiMunawar31' target='_blank' rel='noreferrer' aria-label='Github'>
 					<AiFillGithub className='w-8 h-8 cursor-pointer' />
 				</a>
-				<a href='https://www.instagram.com/mhunawar31/' aria-label='Instagram'>
+				<a href='https://www.instagram.com/mhunawar31/' target='_blank' rel='noreferrer' aria-label='Instagram'>
 					<AiFillInstagram className='w-8 h-8 cursor-pointer' />
 				</a>
 			</div>
