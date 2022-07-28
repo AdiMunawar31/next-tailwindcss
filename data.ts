@@ -210,6 +210,16 @@ export const projects: IProject[] = [
     key_techs: ["React"],
   },
   {
+    name: "D2YKRYPT",
+    image_path: "/images/d2ykrypt.png",
+    deployed_url: "https://d2ykrypt.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/d2ykrypt",
+    category: ["react", "blockchain"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React"],
+  },
+  {
     name: "D2YPRESENCE",
     image_path: "/images/d2ypresence.jpg",
     deployed_url: "#",
