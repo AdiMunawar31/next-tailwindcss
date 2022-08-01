@@ -338,6 +338,11 @@ export const certificates: ICertificate[] = [
     category: ["frontEnd"]
   },
   {
+    name: "Menjadi Front-End Web Developer Expert",
+    image_path: "/certificates/fe-expert.png",
+    category: ["frontEnd"]
+  },
+  {
     name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
     image_path: "/certificates/be-basic.png",
     category: ["backEnd"]
