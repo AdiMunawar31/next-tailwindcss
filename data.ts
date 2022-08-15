@@ -348,6 +348,11 @@ export const certificates: ICertificate[] = [
     category: ["backEnd"]
   },
   {
+    name: "Belajar Membuat Aplikasi Back-End untuk Pemula Dengan Google Cloud",
+    image_path: "/certificates/gcp-basic.png",
+    category: ["backEnd", "devOps"]
+  },
+  {
     name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
     image_path: "/certificates/aws-basic.png",
     category: ["backEnd", "devOps"]
