@@ -268,6 +268,11 @@ export const certificates: ICertificate[] = [
     category: ["random"]
   },
   {
+    name: "VSGA Junior Web Developer",
+    image_path: "/certificates/jwd.png",
+    category: ["random"]
+  },
+  {
     name: "Problem Solving (Basic)",
     image_path: "/certificates/hackerank.png",
     category: ["random"]
@@ -351,6 +356,11 @@ export const certificates: ICertificate[] = [
     name: "Back-End untuk Pemula Dengan Google Cloud",
     image_path: "/certificates/gcp-basic.png",
     category: ["backEnd", "devOps"]
+  },
+  {
+    name: "Belajar Fundamental Aplikasi Back-End",
+    image_path: "/certificates/be-fundamental.png",
+    category: ["backEnd"]
   },
   {
     name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
