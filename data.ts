@@ -230,6 +230,16 @@ export const projects: IProject[] = [
     key_techs: ["React"],
   },
   {
+    name: "CLUB MOTOR CIREBON",
+    image_path: "/images/cbc.png",
+    deployed_url: "https://club-motor-cirebon.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/club-motor-cirebon",
+    category: ["react"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React", "Next JS"],
+  },
+  {
     name: "D2YPRESENCE",
     image_path: "/images/d2ypresence.jpg",
     deployed_url: "#",
