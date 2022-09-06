@@ -240,6 +240,16 @@ export const projects: IProject[] = [
     key_techs: ["React", "Next JS"],
   },
   {
+    name: "AMAZON-CLONE",
+    image_path: "/images/d2yzon.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/AdiMunawar31/RN-AMAZON-CLONE",
+    category: ["react-native"],
+    description:
+      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+    key_techs: [ "React Native"],
+  },
+  {
     name: "D2YPRESENCE",
     image_path: "/images/d2ypresence.jpg",
     deployed_url: "#",
