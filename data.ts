@@ -7,21 +7,21 @@ import { ICertificate, IProject, Service, Skill } from "./types";
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
-    title: "frontEnd Development",
+    title: "FrontEnd Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>React.js</b>  and <b>Vue.js</b> ",
+      "I can build a beautiful and scalable SPA using <b>Next Js</b>, <b>React.js</b>  and <b>Vue.js</b> ",
   },
   {
     Icon: FaServer,
-    title: "backEnd  Development",
+    title: "BackEnd  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express Js</b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>laravel-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using <b>Golang API</b>  & <b>NodeJs API</b> ",
   },
   {
     Icon: MdDeveloperMode,
@@ -32,7 +32,7 @@ export const services: Service[] = [
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "stunning user interface designer using <b>Figma</b>  and  <b>Adobe Xd</b> ",
   },
   {
     Icon: RiComputerLine,
@@ -234,6 +234,16 @@ export const projects: IProject[] = [
     image_path: "/images/cbc.png",
     deployed_url: "https://club-motor-cirebon.vercel.app/",
     github_url: "https://github.com/AdiMunawar31/club-motor-cirebon",
+    category: ["react"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React", "Next JS"],
+  },
+  {
+    name: "DISHOP-AJA",
+    image_path: "/images/dishop.png",
+    deployed_url: "https://dishop-aja.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/dishop-aja",
     category: ["react"],
     description:
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
