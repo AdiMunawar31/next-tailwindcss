@@ -250,6 +250,26 @@ export const projects: IProject[] = [
     key_techs: ["React", "Next JS"],
   },
   {
+    name: "D2YMETAVERSE",
+    image_path: "/images/d2ymetaverse.png",
+    deployed_url: "https://d2ymetaverse.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/d2ymetaverse",
+    category: ["react", "blockchain"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React", "Next JS"],
+  },
+  {
+    name: "D2YCROWDFUNDING",
+    image_path: "/images/d2ycrowdfunding.png",
+    deployed_url: "https://d2ycrowdfunding.vercel.app/",
+    github_url: "https://github.com/AdiMunawar31/d2ycrowdfunding",
+    category: ["react", "blockchain"],
+    description:
+      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+    key_techs: ["React", "Next JS"],
+  },
+  {
     name: "AMAZON-CLONE",
     image_path: "/images/d2yzon.jpg",
     deployed_url: "#",
