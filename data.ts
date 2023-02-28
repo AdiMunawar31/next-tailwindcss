@@ -132,7 +132,7 @@ export const projects: IProject[] = [
   { 
     name: "COVID Tracker",
     description:
-      "This app shows a statistical view about corona virus over the world",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     image_path: "/images/vuecvd.jpg",
     deployed_url: "https://vue-cvd19.vercel.app/ ",
     github_url: "https://github.com/AdiMunawar31/cvd19",
@@ -146,7 +146,7 @@ export const projects: IProject[] = [
     github_url: "#",
     category: ["react"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React","Socket"],
   },
   {
@@ -156,7 +156,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2ynews",
     category: ["react"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React"],
   },
   {
@@ -166,7 +166,7 @@ export const projects: IProject[] = [
     github_url: "#",
     category: ["react"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React"],
   },
   {
@@ -176,7 +176,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/ulin-admin",
     category: ["vue"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      'Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ',
     key_techs: [ "Vue", "Tailwind CSS"],
   },
   {
@@ -186,7 +186,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2yresto",
     category: ["javascript"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      'Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ',
     key_techs: [ "HTML", "CSS", "Javascript"],
   },
   {
@@ -196,7 +196,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/vue-advance",
     category: ["vue"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ",
     key_techs: [ "Vue", "Tailwind CSS"],
   },
   {
@@ -206,7 +206,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2ybored",
     category: ["react", "blockchain"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React"],
   },
   {
@@ -216,7 +216,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2ykrypt",
     category: ["react", "blockchain"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React"],
   },
   {
@@ -226,7 +226,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2yswap",
     category: ["react", "blockchain"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React"],
   },
   {
@@ -236,7 +236,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/club-motor-cirebon",
     category: ["react"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React", "Next JS"],
   },
   {
@@ -246,7 +246,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/dishop-aja",
     category: ["react"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React", "Next JS"],
   },
   {
@@ -256,7 +256,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2ymetaverse",
     category: ["react", "blockchain"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React", "Next JS"],
   },
   {
@@ -266,7 +266,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/d2ycrowdfunding",
     category: ["react", "blockchain"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: ["React", "Next JS"],
   },
   {
@@ -276,17 +276,27 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/RN-AMAZON-CLONE",
     category: ["react-native"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ",
     key_techs: [ "React Native"],
   },
   {
-    name: "D2YPRESENCE",
+    name: "D2YPRESENCE (GPS)",
     image_path: "/images/d2ypresence.jpg",
     deployed_url: "#",
     github_url: "https://github.com/AdiMunawar31/presense-app",
     category: ["flutter"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ",
+    key_techs: [ "Flutter", "Firebase", 'GetX'],
+  },
+  {
+    name: "E-ABSENSI PEMDES(QR)",
+    image_path: "/images/e-absensi.jpg",
+    deployed_url: "#",
+    github_url: "#",
+    category: ["flutter"],
+    description:
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.",
     key_techs: [ "Flutter", "Firebase", 'GetX'],
   },
   {
@@ -296,7 +306,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/AdiMunawar31/ditonton",
     category: ["flutter"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ",
     key_techs: [ "Flutter", "Bloc"],
   },
   {
@@ -306,7 +316,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/proyekcapstone/FRONT-END",
     category: ["flutter"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+      "Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. ",
     key_techs: [ "Flutter","Firebase", "Provider"],
   },
 ];
@@ -325,6 +335,11 @@ export const certificates: ICertificate[] = [
   {
     name: "Problem Solving (Basic)",
     image_path: "/certificates/hackerank.png",
+    category: ["random"]
+  },
+  {
+    name: "Belajar Dasar Manajemen Proyek",
+    image_path: "/certificates/proyek.png",
     category: ["random"]
   },
   {
