@@ -71,10 +71,10 @@ export const languages: Skill[] = [
     Icon: "/images/icons/lara.svg",
     name: "Laravel",
   },
-  {
-    Icon: "/images/icons/ci.svg",
-    name: "Codeigniter",
-  },
+  // {
+  //   Icon: "/images/icons/ci.svg",
+  //   name: "Codeigniter",
+  // },
   {
     Icon: "/images/icons/next.svg",
     name: "Next JS",
@@ -98,10 +98,10 @@ export const tools: Skill[] = [
     Icon: "/images/icons/figma.svg",
     name: "Figma",
   },
-  {
-    Icon: "/images/icons/xd.svg",
-    name: "Adobe XD",
-  },
+  // {
+  //   Icon: "/images/icons/xd.svg",
+  //   name: "Adobe XD",
+  // },
   {
     Icon: "/images/icons/framer-motion.png",
     name: "Framer Motion",
